@@ -1917,7 +1917,43 @@
       });    
     </script>
 
-    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <style>
+      #editorWrapper {
+        position: relative;
+        width: 600px;
+      }
+
+      #editor {
+          position: absolute;
+          top: 0;
+          right: 0;
+          bottom: 0;
+          left: 0;
+          height: 50rem;
+          width: 600px;
+      }
+
+      #canvasWrapper {
+        display: inline-block;
+        position: relative;
+        top: 10px;
+        left: 610px;
+        height: 50em;
+      }
+
+      #canvasSection {
+        position: absolute;
+        max-height: 50em;
+        overflow-x: visible;
+        overflow-y: auto;
+        border: 1px solid #eee;
+        background-color: #fff;
+      }
+
+      #previewForm {
+        margin-top: 20px;
+      }    
+    </style>
 
     <title>PlantUML Editor</title>
   </head>
